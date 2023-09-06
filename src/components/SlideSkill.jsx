@@ -27,7 +27,7 @@ const Slider = () => {
         {images.map((image, index) => (
           <div
             key={index}
-            className={`absolute top-0 left-0 w-full }h-full transition-opacity duration-1000 ease-in-out ${
+            className={`absolute top-0 left-0 w-full}h-full transition-opacity duration-1000 ease-in-out ${
               index === currentImage ? 'opacity-100' : 'opacity-0'
             }`}
           >
